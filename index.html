@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RideUltra</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="app">
+  <div class="controls">
+    <div class="input-group">
+      <label for="originMode">Origen:</label>
+      <select id="originMode">
+        <option value="gps">Usar mi ubicación</option>
+        <option value="manual">Escribir dirección</option>
+      </select>
+      <input id="originInput" type="text" placeholder="Escribe tu dirección" style="display:none;">
+    </div>
+
+    <div class="input-group">
+      <label for="dest">Destino:</label>
+      <input id="dest" type="text" placeholder="Escribe tu destino">
+    </div>
+
+    <div class="input-group">
+      <label for="vehicleType">Tipo de vehículo:</label>
+      <select id="vehicleType">
+        <option value="car">Carro 🚗</option>
+        <option value="moto">Moto 🏍️</option>
+      </select>
+    </div>
+
+    <div class="buttons">
+      <button id="btnRequest">Solicitar viaje</button>
+      <button id="btnCancel" disabled>Cancelar</button>
+      <button id="btnCenter">Centrar mapa</button>
+    </div>
+
+    <div class="info">
+      <p id="statusLine"></p>
+      <p id="etaLine"></p>
+      <p id="distanceLine"></p>
+      <p id="fareLine"></p>
+    </div>
+
+    <div id="driverCard" aria-hidden="true" class="driver-card">
+      <div id="driverAvatar"></div>
+      <p id="driverName"></p>
+      <p id="driverRating"></p>
+      <p id="driverDistance"></p>
+      <p id="licensePlate"></p>
+    </div>
+  </div>
+
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
