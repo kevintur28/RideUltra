@@ -1,11 +1,3 @@
-Es una excelente idea añadir el .gitignore a tu documentación de README para orientar a futuros colaboradores y demostrar buenas prácticas.
-
-Aunque el .gitignore en sí es un archivo que va en la raíz del proyecto (no dentro del README), puedes incluir una sección en tu README que hable sobre su importancia y cómo debe ser.
-
-Aquí tienes el texto completo de tu README.md con una nueva sección sobre el .gitignore y las buenas prácticas de Git:
-
-Markdown
-
 # RideUltra 🚗🏍️
 
 ## Descripción del proyecto
