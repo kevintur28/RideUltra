@@ -4,7 +4,7 @@
 RideUltra es una aplicación web tipo “ride-hailing” que permite a los usuarios solicitar viajes simulados con un conductor animado en tiempo real sobre el mapa.
 
 ## Capturas de Pantalla
-1. panel principal <img width="395" height="862" alt="image" src="https://github.com/user-attachments/assets/4d3ce0d8-8334-4474-8fc3-468e96893c3f" />
+1. panel principal   <img width="395" height="862" alt="image" src="https://github.com/user-attachments/assets/4d3ce0d8-8334-4474-8fc3-468e96893c3f" />
 2. Cuando ya se pidio el viaje <img width="1385" height="874" alt="image" src="https://github.com/user-attachments/assets/4cdccffe-f984-4cbe-8011-f735ef377b29" />
 
 
